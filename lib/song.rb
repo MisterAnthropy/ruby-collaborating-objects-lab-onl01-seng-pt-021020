@@ -7,7 +7,7 @@ class Song
     @name = name
   end
   def self.all
-    @@all << self.name 
+    self 
   end
 
   def self.new_by_filename(filename)
